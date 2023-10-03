@@ -1,0 +1,1 @@
+/home/michi/.config/i3
