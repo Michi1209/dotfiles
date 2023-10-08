@@ -1,0 +1,21 @@
+#!/bin/bash
+for output in $(xrandr | grep '\Wconnected' | awk '{ print $1 }'); do
+    #echo "$output"
+    if [[ "$output" == *"HDMI"* ]]; then
+     #   echo "yes"
+	primary="$output"
+    fi
+    if [[ "$output" == *"eDP"* ]]; then
+        eDP="$output"
+#	echo "two"
+    fi
+done
+
+#echo "$eDP and $primary"
+if [ -z "$primary" ]; then
+    primary=$output
+    xrandr --output "$primary" --primary
+else
+    xrandr --output "$eDP" --auto --right-of "$primary" --output "$primary" --primary
+fi
+
