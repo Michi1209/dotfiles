@@ -1,0 +1,19 @@
+[2023-10-01 16:36:04.123] [info]  Running version 2023.5.8
+[2023-10-01 16:36:04.151] [error] [electron client protocol] FAILED to set default protocol 'insomnia://'
+[2023-10-01 16:36:04.180] [info]  [electron client protocol] the current executable is not the default protocol for 'insomnia://'
+[2023-10-01 16:36:04.251] [info]  [electron client protocol] the default application set for 'insomnia://' is 'insomnia.desktop
+'
+[2023-10-01 16:36:04.492] [info]  [fix] Running database repairs
+[2023-10-01 16:36:04.541] [info]  [db] Initialized DB at /home/michi/.config/Insomnia/insomnia.$TYPE.db
+[2023-10-01 16:36:04.542] [info]  [db] Init responses DB
+[2023-10-01 16:36:04.542] [info]  [db] Init websocket-responses DB
+[2023-10-01 16:36:04.544] [info]  [localstorage] Initialized at /home/michi/.config/Insomnia/localStorage
+[2023-10-01 16:36:04.563] [info]  [main] Loading file:///opt/Insomnia/resources/app.asar/index.html
+[2023-10-01 16:36:04.584] [info]  [updater] Not supported on this platform linux
+[2023-10-01 16:36:06.400] [info]  [main] Window ready, handling command line arguments [ '/opt/Insomnia/insomnia' ]
+[2023-10-01 16:36:06.409] [info]  [main] Checking for newer version than  2023.5.8
+[2023-10-01 16:36:08.788] [info]  [main] Found newer version {
+  url: 'https://github.com/Kong/insomnia/releases/download/core@8.1.0/Insomnia.Core-8.1.0.zip',
+  name: '8.1.0'
+}
+[2023-10-01 16:36:08.794] [info]  Exported backup to: /home/michi/.config/Insomnia/backups/2023.5.8

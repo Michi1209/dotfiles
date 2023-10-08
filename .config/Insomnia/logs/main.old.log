@@ -1,0 +1,25 @@
+[2023-10-01 15:21:04.255] [info]  Running version 2023.5.8
+[2023-10-01 15:21:04.283] [error] [electron client protocol] FAILED to set default protocol 'insomnia://'
+[2023-10-01 15:21:04.307] [info]  [electron client protocol] the current executable is not the default protocol for 'insomnia://'
+[2023-10-01 15:21:04.368] [info]  [electron client protocol] the default application set for 'insomnia://' is 'insomnia.desktop
+'
+[2023-10-01 15:21:04.677] [info]  [fix] Running database repairs
+[2023-10-01 15:21:04.705] [info]  [db] Initialized DB at /home/michi/.config/Insomnia/insomnia.$TYPE.db
+[2023-10-01 15:21:04.705] [info]  [db] Init responses DB
+[2023-10-01 15:21:04.705] [info]  [db] Init websocket-responses DB
+[2023-10-01 15:21:04.707] [info]  [localstorage] Initialized at /home/michi/.config/Insomnia/localStorage
+[2023-10-01 15:21:04.739] [info]  [main] Loading file:///opt/Insomnia/resources/app.asar/index.html
+[2023-10-01 15:21:04.755] [info]  [updater] Not supported on this platform linux
+[2023-10-01 15:21:06.498] [info]  [main] App update detected 2023.5.8 2023.4.0
+[2023-10-01 15:21:06.500] [info]  [main] Window ready, handling command line arguments [ '/opt/Insomnia/insomnia' ]
+[2023-10-01 15:21:06.506] [info]  [main] Checking for newer version than  2023.5.8
+[2023-10-01 15:21:16.564] [info]  [main] Error checking for newer version Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:49935)
+    at SimpleURLLoaderWrapper.emit (node:events:513:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:489:12)
+[2023-10-01 15:21:56.115] [warn]  [analytics] Error sending segment event AbortError: This operation was aborted
+    at Object.fetch (node:internal/deps/undici/undici:11413:11)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+    at async Publisher.send (/opt/Insomnia/resources/app.asar/node_modules/@segment/analytics-node/dist/cjs/plugins/segmentio/publisher.js:154:34)

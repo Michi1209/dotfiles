@@ -1,0 +1,5 @@
+[2023-10-01 16:36:05.527] [info]  [db] Initialized DB client
+[2023-10-01 16:36:05.735] [info]  [FileSystemDriver] Initialized in "/home/michi/.config/Insomnia/version-control"
+[2023-10-01 16:36:05.736] [info]  [sync] checking for collections which need to be moved into a remote project
+[2023-10-01 16:36:05.738] [info]  [FileSystemDriver] Initialized in "/home/michi/.config/Insomnia/version-control"
+[2023-10-01 16:36:43.069] [info]  [network] Response failed req=req_46b6a1381858424892ceb4068d31e661 err=Error: SSL connect error
